@@ -4,7 +4,9 @@
 
   <exclude-pattern>*/bin/*</exclude-pattern>
   <exclude-pattern>*/vendor/*</exclude-pattern>
-
+	
+  <arg name="show_progress" value="1"/>	
+	
   <rule ref="PSR2">
     <exclude name="Generic.Functions.FunctionCallArgumentSpacing.TooMuchSpaceAfterComma"/>
   </rule>
